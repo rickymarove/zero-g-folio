@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ricky.space',
+  site: 'https://rickyastro.pages.dev',
   integrations: [sitemap()],
   redirects: {
     '/about': {
