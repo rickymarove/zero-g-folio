@@ -3,9 +3,13 @@ import "../styles/global.css";
 
 interface Props {
     title?: string;
+    description?: string;
 }
 
-const { title = "/home/ricky" } = Astro.props;
+const {
+    title = "/home/ricky",
+    description = "Ricky Marove's personal portfolio — Software engineer specializing in front-end development, neo-brutalist digital playground, and creative web experiments.",
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -14,6 +18,12 @@ const { title = "/home/ricky" } = Astro.props;
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
         <link href="https://fonts.googleapis.com" rel="preconnect" />
         <link
             crossorigin=""
