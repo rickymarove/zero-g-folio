@@ -7,7 +7,7 @@ interface Props {
 }
 
 const {
-    title = "/home/ricky",
+    title = "Ricky Marove — Frontend Software Engineer",
     description = "Ricky Marove's personal portfolio — Software engineer specializing in front-end development, neo-brutalist digital playground, and creative web experiments.",
 } = Astro.props;
 
@@ -45,9 +45,10 @@ const schemaData = {
         },
         {
             "@type": "WebSite",
-            "@id": `${siteUrl.origin}#website`,
-            url: siteUrl.origin,
-            name: "ricky.space",
+            "@id": `${siteUrl.origin}/#website`,
+            url: `${siteUrl.origin}/`,
+            name: "Ricky Marove",
+            alternateName: ["ricky.space", "Ricky's Folio", "rickyastro"],
             description: description,
             publisher: {
                 "@id": `${siteUrl.origin}#person`,
@@ -71,7 +72,7 @@ const schemaData = {
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonicalURL} />
-        <meta property="og:site_name" content="ricky.space" />
+        <meta property="og:site_name" content="Ricky Marove" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={ogImageURL} />
