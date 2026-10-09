@@ -74,8 +74,8 @@ export const projects: Project[] = [
         image: "/kanyeboxd.png",
         category: "Fullstack",
         tags: ["Nextjs", "Tailwind", "Supabase"],
-        accent: "bg-[#135bec]",
-        shadow: "bg-[#FF0099]",
+        accent: "bg-[#FF0099]",
+        shadow: "bg-[#135bec]",
         link: "https://kanyeboxd.vercel.app/",
         repo: "https://github.com/rickymarove/kanyeboxd"
     },
