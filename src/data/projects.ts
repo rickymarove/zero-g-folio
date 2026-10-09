@@ -22,7 +22,7 @@ export const projects: Project[] = [
         accent: "bg-[#135bec]",
         shadow: "bg-[#FF0099]",
         link: "https://project-overlord.pages.dev/",
-        repo: "https://github.com/richardmarove/project-overlord"
+        repo: "https://github.com/rickymarove/project-overlord"
     },
     {
         title: "Weather App",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
         accent: "bg-[#00FFCC]",
         shadow: "bg-[#9D00FF]",
         link: "https://rickysweather.pages.dev/",
-        repo: "https://github.com/richardmarove/weather-app"
+        repo: "https://github.com/rickymarove/weather-app"
     },
     {
         title: "Ricky's AI Wrapper",
@@ -44,7 +44,7 @@ export const projects: Project[] = [
         accent: "bg-[#FF3366]",
         shadow: "bg-[#00E5FF]",
         link: "https://geminiw.pages.dev/",
-        repo: "https://github.com/richardmarove/geminiwrapper"
+        repo: "https://github.com/rickymarove/geminiwrapper"
     },
     {
         title: "Astro98",
@@ -55,7 +55,7 @@ export const projects: Project[] = [
         accent: "bg-black dark:bg-white",
         shadow: "bg-[#FF9900]",
         link: "https://astro98.pages.dev/",
-        repo: "https://github.com/richardmarove/astro98"
+        repo: "https://github.com/rickymarove/astro98"
     },
     {
         title: "Marove Lux",
@@ -66,8 +66,21 @@ export const projects: Project[] = [
         accent: "bg-[#EBFF00]",
         shadow: "bg-[#135bec]",
         link: "https://appetize.io/app/b_sttipfgfue22etld2oitvajqdm",
-        repo: "https://github.com/richardmarove/marove-lux"
-    }
+        repo: "https://github.com/rickymarove/marove-lux"
+    },
+    {
+        title: "kanyeboxd",
+        description: "My own personal kind of letterboxd but for albums instead. It's a personal project.",
+        image: "/kanyeboxd.png",
+        category: "Fullstack",
+        tags: ["Nextjs", "Tailwind", "Supabase"],
+        accent: "bg-[#135bec]",
+        shadow: "bg-[#FF0099]",
+        link: "https://kanyeboxd.vercel.app/",
+        repo: "https://github.com/rickymarove/kanyeboxd"
+    },
+
+    
 ];
 
 export const categories = ["All", "Frontend", "Fullstack", "Mobile"];
