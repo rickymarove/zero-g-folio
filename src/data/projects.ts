@@ -73,7 +73,7 @@ export const projects: Project[] = [
         description: "My own personal kind of letterboxd but for albums instead. It's a personal project.",
         image: "/kanyeboxd.png",
         category: "Fullstack",
-        tags: ["Nextjs", "Tailwind", "Supabase"],
+        tags: ["Next.js", "Tailwind", "Supabase"],
         accent: "bg-[#FF0099]",
         shadow: "bg-[#135bec]",
         link: "https://kanyeboxd.vercel.app/",
