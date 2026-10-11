@@ -79,6 +79,18 @@ export const projects: Project[] = [
         link: "https://kanyeboxd.vercel.app/",
         repo: "https://github.com/rickymarove/kanyeboxd"
     },
+    {
+        title: "Dirt and Clouds",
+        description: "My first experience in trying Phaser (2D Framework)",
+        image: "/dirtandclouds.png",
+        category: "Frontend",
+        tags: ["Vite", "Phaser", "WebGL"],
+        accent: "bg-[#FF3366]",
+        shadow: "bg-[#00E5FF]",
+        link: "https://dirtandclouds.vercel.app/",
+        repo: "https://github.com/rickymarove/dirtandclouds"
+    },
+
 
     
 ];
