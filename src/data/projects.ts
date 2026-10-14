@@ -90,6 +90,17 @@ export const projects: Project[] = [
         link: "https://dirtandclouds.vercel.app/",
         repo: "https://github.com/rickymarove/dirtandclouds"
     },
+    {
+        title: "a-chess-game",
+        description: "First time nibbling with Three.js and Chess.js, initial code written by Gemini 4 Argon then I improved the rest myself.",
+        image: "/a-chess-game.png",
+        category: "Frontend",
+        tags: ["Astro", "Tailwind", "Three.js", "Chess.js"],
+        accent: "bg-[#135bec]",
+        shadow: "bg-[#FF0099]",
+        link: "https://chesses-two.vercel.app/",
+        repo: "https://github.com/rickymarove/a-chess-game"
+    },
 
 
     
