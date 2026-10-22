@@ -58,6 +58,18 @@ export const projects: Project[] = [
         repo: "https://github.com/rickymarove/astro98"
     },
     {
+        title: "Alvetrix (now Vetrantrix)",
+        description: "Sports management platform for organizing matches, teams, and player data. Originally developed as Alvetrix.",
+        image: "/alvetrix2.png",
+        category: "Fullstack",
+        tags: ["PHP", "CSS", "MySQL"],
+        accent: "bg-[#EBFF00]",
+        shadow: "bg-black dark:bg-white",
+        link: "https://vetrantrix.com/",
+        repo: "#",
+        repoLocked: true
+    },
+    {
         title: "Marove Lux",
         description: "My first mobile app: a sleek and efficient study flashcard app designed for modern students.",
         image: "/marovelux.png",
