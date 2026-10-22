@@ -59,7 +59,7 @@ export const projects: Project[] = [
     },
     {
         title: "Alvetrix (now Vetrantrix)",
-        description: "Sports management platform for organizing matches, teams, and player data. Originally developed as Alvetrix.",
+        description: "Sports management platform for organizing matches, teams, and player data. I developed many of its core features and early design",
         image: "/alvetrix2.png",
         category: "Fullstack",
         tags: ["PHP", "CSS", "MySQL"],
