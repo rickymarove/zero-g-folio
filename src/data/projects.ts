@@ -16,7 +16,7 @@ export const projects: Project[] = [
     {
         title: "project-overlord",
         description: "My own personal CMS that I built for myself to rant about my life and politics.",
-        image: "/project-overlord.png",
+        image: "/project-overlord.webp",
         category: "Fullstack",
         tags: ["Astro", "Tailwind", "Supabase"],
         accent: "bg-[#135bec]",
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     {
         title: "Weather App",
         description: "A weather app that tells you the weather in your location.",
-        image: "/weather.png",
+        image: "/weather.webp",
         category: "Frontend",
         tags: ["React Vite", "TailwindCSS", "OpenWeatherMap API"],
         accent: "bg-[#00FFCC]",
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     {
         title: "Ricky's AI Wrapper",
         description: "An attempt in making my own AI wrapper using AI Studio & OpenRouter API.",
-        image: "/geminiw.png",
+        image: "/geminiw.webp",
         category: "Fullstack",
         tags: ["Next.js", "Tailwind", "AI Studio", "OpenRouter"],
         accent: "bg-[#FF3366]",
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     {
         title: "Astro98",
         description: "An uncomplete attempt to make a personal portfolio site with the vibe of Windows 98.",
-        image: "/astro98.png",
+        image: "/astro98.webp",
         category: "Frontend",
         tags: ["Astro", "Tailwind", "React"],
         accent: "bg-black dark:bg-white",
@@ -60,7 +60,7 @@ export const projects: Project[] = [
     {
         title: "Alvetrix (now Vetrantrix)",
         description: "Sports management platform for organizing matches, teams, and player data. I developed many of its core features and early design",
-        image: "/alvetrix2.png",
+        image: "/alvetrix2.webp",
         category: "Fullstack",
         tags: ["PHP", "CSS", "MySQL"],
         accent: "bg-[#EBFF00]",
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     {
         title: "Marove Lux",
         description: "My first mobile app: a sleek and efficient study flashcard app designed for modern students.",
-        image: "/marovelux.png",
+        image: "/marovelux.webp",
         category: "Mobile",
         tags: ["React Native", "StyleSheet", "Expo"],
         accent: "bg-[#EBFF00]",
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     {
         title: "kanyeboxd",
         description: "My own personal kind of letterboxd but for albums instead. It's a personal project.",
-        image: "/kanyeboxd.png",
+        image: "/kanyeboxd.webp",
         category: "Fullstack",
         tags: ["Next.js", "Tailwind", "Supabase"],
         accent: "bg-[#FF0099]",
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     {
         title: "Dirt and Clouds",
         description: "My first experience in trying Phaser (2D Framework)",
-        image: "/dirtandclouds.png",
+        image: "/dirtandclouds.webp",
         category: "Frontend",
         tags: ["Vite", "Phaser", "WebGL"],
         accent: "bg-[#FF3366]",
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     {
         title: "a-chess-game",
         description: "First time nibbling with Three.js and Chess.js, initial code written by Gemini 4 Argon then I improved the rest myself.",
-        image: "/a-chess-game.png",
+        image: "/a-chess-game.webp",
         category: "Frontend",
         tags: ["Astro", "Tailwind", "Three.js", "Chess.js"],
         accent: "bg-[#135bec]",

@@ -13,7 +13,7 @@ const {
 
 const siteUrl = Astro.site ?? new URL("https://rickyastro.pages.dev");
 const canonicalURL = new URL(Astro.url.pathname, siteUrl).href;
-const ogImageURL = new URL("/pic.jpeg", siteUrl).href;
+const ogImageURL = new URL("/pic.webp", siteUrl).href;
 
 const schemaData = {
     "@context": "https://schema.org",
